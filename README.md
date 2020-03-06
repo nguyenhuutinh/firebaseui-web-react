@@ -25,7 +25,7 @@ npm install --save firebase
 ```
 
 In your app:
-  1. Import the `FirebaseAuth` or the `StyledFirebaseAuth` component from `react-firebaseui` and import `firebase`.
+  1. Import the `FirebaseAuth` or the `StyledFirebaseAuth` component from `nguyenhuutinh-react-firebaseui` and import `firebase`.
   2. Configure Firebase as described in [the Firebase Docs](https://firebase.google.com/docs/web/setup).
   3. Write a Firebase UI configuration as described in [firebase/firebaseui-web](https://github.com/firebase/firebaseui-web#configuration).
   4. Use the `FirebaseAuth` component in your template passing it the **Firebase UI configuration** and a **Firebase Auth instance**.
@@ -47,7 +47,7 @@ Below is an example on how to use `FirebaseAuth` with a redirect upon sign-in:
 ```js
 // Import FirebaseAuth and firebase.
 import React from 'react';
-import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth';
+import StyledFirebaseAuth from 'nguyenhuutinh-react-firebaseui/StyledFirebaseAuth';
 import firebase from 'firebase';
 
 // Configure Firebase.
