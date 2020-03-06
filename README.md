@@ -15,7 +15,7 @@ FirebaseUI Auth provides a drop-in auth solution that handles the UI flows for s
 Install the npm package in your React app:
 
 ```bash
-npm install --save react-firebaseui
+npm install --save nguyenhuutinh-react-firebaseui
 ```
 
 You also need the `firebase` package installed which is a peer dependency:
