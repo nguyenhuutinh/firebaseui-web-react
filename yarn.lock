@@ -3026,9 +3026,10 @@ firebase@^7.10.0:
     "@firebase/storage" "0.3.30"
     "@firebase/util" "0.2.43"
 
-"firebaseui@https://github.com/nguyenhuutinh/firebaseui-web.git#zh":
-  version "4.4.0"
-  resolved "https://github.com/nguyenhuutinh/firebaseui-web.git#20d5eea2eb3e9651e023bdeded43050264d9b9e4"
+"firebaseui@git@github.com:nguyenhuutinh/firebaseui-web.git#zh":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/firebaseui/-/firebaseui-4.5.0.tgz#5688c0e14ff87d45a187a61b30fd2315fef7c5dc"
+  integrity sha512-aliOXphs4e2DunKEhTqHV4rSMBninYVo0sqFaNTWw+KXRVp6381tluAhf5v8p208MZS0E8PdLKzMlgf11Fheow==
   dependencies:
     dialog-polyfill "^0.4.7"
     material-design-lite "^1.2.0"
@@ -4362,7 +4363,7 @@ node-libs-browser@^2.2.1:
     util "^0.11.0"
     vm-browserify "^1.0.1"
 
-node-pre-gyp@*, node-pre-gyp@^0.14.0:
+node-pre-gyp@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/node-pre-gyp/-/node-pre-gyp-0.14.0.tgz#9a0596533b877289bcad4e143982ca3d904ddc83"
   integrity sha512-+CvDC7ZttU/sSt9rFjix/P05iS43qHCOOGzcr3Ry99bXG7VX953+vFyEuph/tfqoYu8dttBkE86JSKBO2OzcxA==
